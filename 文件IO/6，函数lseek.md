@@ -26,8 +26,6 @@ off_t lseek(int fd, off_t offset, int whence);
 
 ·若whence是SEEK_CUR，则将该文件的偏移量设置为其当前值加上offset，offset可为正负。
 
-· 若whence是SEEK_SET,则将该文件的偏移量设置为距文件开始处offset个字节。
-
 ·若whence是SEEK_END，则将该文件的偏移量设置为文件长度加上offset，offset可为正负。
 
 
